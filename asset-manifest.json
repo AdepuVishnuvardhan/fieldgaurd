@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/fieldgaurd/static/css/main.fe738bcd.css",
+    "main.js": "/fieldgaurd/static/js/main.a33af22e.js",
+    "static/js/488.e0bd040c.chunk.js": "/fieldgaurd/static/js/488.e0bd040c.chunk.js",
+    "static/media/male.wav": "/fieldgaurd/static/media/male.b2ce1d01f301d972feac.wav",
+    "static/media/empowerImage.jpg": "/fieldgaurd/static/media/empowerImage.a5e1d37a4c4deec50127.jpg",
+    "static/media/supportImage.jpg": "/fieldgaurd/static/media/supportImage.a5e1d37a4c4deec50127.jpg",
+    "static/media/login-bg.jpg": "/fieldgaurd/static/media/login-bg.9e4dc91bdb8a11bc4bef.jpg",
+    "static/media/police.mp3": "/fieldgaurd/static/media/police.16eb783d8b86445ce872.mp3",
+    "static/media/secure.jpg": "/fieldgaurd/static/media/secure.0f54ddf057d130b9e088.jpg",
+    "static/media/stayAlertImage.jpg": "/fieldgaurd/static/media/stayAlertImage.0f54ddf057d130b9e088.jpg",
+    "static/media/call.jpg": "/fieldgaurd/static/media/call.497369de16ba85a0ed86.jpg",
+    "static/media/emergency.jpg": "/fieldgaurd/static/media/emergency.33eeaaad330e58f23979.jpg",
+    "static/media/wherer u.jpg": "/fieldgaurd/static/media/wherer u.33eeaaad330e58f23979.jpg",
+    "static/media/live.jpg": "/fieldgaurd/static/media/live.1f64bd60eb61f908003b.jpg",
+    "static/media/fake call.jpg": "/fieldgaurd/static/media/fake call.c478a7a38bff644a87ca.jpg",
+    "static/media/scream.jpg": "/fieldgaurd/static/media/scream.13a0ccc525318d534401.jpg",
+    "index.html": "/fieldgaurd/index.html",
+    "main.fe738bcd.css.map": "/fieldgaurd/static/css/main.fe738bcd.css.map",
+    "main.a33af22e.js.map": "/fieldgaurd/static/js/main.a33af22e.js.map",
+    "488.e0bd040c.chunk.js.map": "/fieldgaurd/static/js/488.e0bd040c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe738bcd.css",
+    "static/js/main.a33af22e.js"
+  ]
+}
