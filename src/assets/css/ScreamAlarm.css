@@ -1,0 +1,25 @@
+.scream-alarm-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.card:hover {
+    background-color: #f5f5f5;
+}
+
+.card-image {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}

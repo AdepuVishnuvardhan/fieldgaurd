@@ -1,0 +1,70 @@
+/* TrackMe Component Styling */
+div {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #004085;
+}
+
+button:focus {
+  outline: none;
+}
+
+div > div {
+  margin-top: 30px;
+}
+
+.map-container {
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  input {
+    width: 80%;
+  }
+
+  button {
+    width: 80%;
+  }
+}

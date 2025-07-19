@@ -1,0 +1,125 @@
+/* Settings.css */
+
+/* Basic container styling */
+.container {
+    width: 90%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the settings box */
+.settings-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header style */
+.settings-box h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* List styling */
+.settings-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for each list item */
+.settings-box li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Button styling */
+.settings-box button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.settings-box button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the battery level */
+.settings-box li span {
+    font-size: 14px;
+    color: #d9534f; /* Red color for low battery */
+}
+
+.settings-box li span {
+    font-size: 14px;
+    color: #d9534f;
+}
+
+/* Toggle switch styling for emergency service */
+.settings-box input[type="checkbox"] {
+    width: 30px;
+    height: 16px;
+    border-radius: 20px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.settings-box input[type="checkbox"]:checked {
+    background-color: #4CAF50; /* Green when enabled */
+}
+
+.settings-box input[type="checkbox"]:checked::before {
+    left: 14px;
+}
+
+.settings-box input[type="checkbox"]::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: left 0.3s;
+}
+
+/* Message Sent Notification */
+.settings-box span {
+    color: green;
+    font-weight: bold;
+}
+
+/* Disable button for trigger SOS when emergency service is off */
+.settings-box button:disabled {
+    background-color: #bbb;
+    cursor: not-allowed;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 600px) {
+    .settings-box {
+        padding: 15px;
+    }
+
+    .settings-box button {
+        width: 100%;
+    }
+
+    .settings-box li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .settings-box input[type="checkbox"] {
+        margin-top: 10px;
+    }
+}
